@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Coding Knowledge </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Coding Knowledge</title>
+  </head>
+  <body>
     <nav>View High Scores</nav>
     <h1 id="student-info">Student Info</h1>
+    <p>
+      This is a timed quiz. You have 75 seconds to answer all the questions.
+    </p>
     <div class="info">
-        <label for="student-name">Name:</label>
-        <input type="text" name="'student-name" id="student-name"/>
-
+      <label for="student-name">Name:</label>
+      <input type="text" name="'student-name" id="student-name" />
     </div>
+    <ol id="questions">
+        <li>In HTML, what does the ALT attribute in an img tag stand for?</li>
+        <li>Which CSS property is used to control the size of an element's content area, padding, and border combined, without including margins?</li>
+        <li>What does the RETURN statment do in a JavaScript function?</li>
+        <li>In JavaScript, what is the purpose of the CONST keyword when declaring a variable?</li>
+    </ol>
+    <input type="submit" value="Submit" disabled>
     <script src="script.js"></script>
-    
-</body>
+  </body>
 </html>
