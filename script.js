@@ -104,9 +104,8 @@ currentQuiz++;
 if(currentQuiz < quizData.length){
     loadQuiz();
  } else{
-    quiz.innerHTML = '<h2> You answered ${score}/${quizData.length} questions correctly</h2>'
+    quiz.innerHTML = '<h2>You have completed the quiz!</h2> <h2>Your score is: ' + score + '/' + quizData.length + '</h2>' + 
     '<button type="button" onclick="location.reload()">Reload</button> ';
-    
    
         
         footerEl.style.display = "none";
