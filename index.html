@@ -4,25 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Coding Knowledge</title>
+    <title>Document</title>
   </head>
   <body>
-    <nav>View High Scores</nav>
-    <h1 id="student-info">Student Info</h1>
-    <p>
-      This is a timed quiz. You have 75 seconds to answer all the questions.
-    </p>
-    <div class="info">
-      <label for="student-name">Name:</label>
-      <input type="text" name="'student-name" id="student-name" />
+    <div class="quiz-container" id="quiz">
+      <div class="quiz-header">
+        <h2 class="header-text">Coding Knowledge</h2>
+      </div>
+      <div class="quiz-body">
+        <h2 id="question">Question Text</h2>
+        <ul>
+          <li>
+            <input type="radio" name="answer" id="a" class="answer" />
+            <label for="a" id="a_text">Answers</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="b" class="answer" />
+            <label for="b" id="b_text">Answers</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="c" class="answer" />
+            <label for="c" id="c_text">Answers</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="d" class="answer" />
+            <label for="d" id="d_text">Answers</label>
+          </li>
+        </ul>
+      </div>
+      <div class="quiz-footer">
+      <div class="quiz-details">1 out of 5 Questions</div>
+      <button type="button" id="button">Next</button>
     </div>
-    <ol id="questions">
-        <li>In HTML, what does the ALT attribute in an img tag stand for?</li>
-        <li>Which CSS property is used to control the size of an element's content area, padding, and border combined, without including margins?</li>
-        <li>What does the RETURN statment do in a JavaScript function?</li>
-        <li>In JavaScript, what is the purpose of the CONST keyword when declaring a variable?</li>
-    </ol>
-    <input type="submit" value="Submit" disabled>
+</div>
+
     <script src="script.js"></script>
   </body>
 </html>
