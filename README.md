@@ -17,6 +17,16 @@ This is a simple quiz application built with HTML, CSS, and JavaScript. It allow
 - **High-score tracking:** The application tracks high scores for users to compete and see their progress.
 - **Responsive design:** The application is designed to work seamlessly on different screen sizes.
 
+
+## Photos
+
+![Screenshot 2023-09-18 at 11 14 34 PM](https://github.com/Cpanelli/Code-Quiz/assets/133393733/2ccd5b3f-7498-4ccf-ab96-fbfb4fceda0f)
+![Screenshot 2023-09-18 at 11 15 09 PM](https://github.com/Cpanelli/Code-Quiz/assets/133393733/495f70a7-b1ca-4b2e-ab40-9566cb53ee65)
+![Screenshot 2023-09-18 at 11 15 19 PM](https://github.com/Cpanelli/Code-Quiz/assets/133393733/c562bdab-4a32-41c0-b3e2-b61059ff501d)
+![Screenshot 2023-09-18 at 11 15 36 PM](https://github.com/Cpanelli/Code-Quiz/assets/133393733/0f0972b9-8c36-45fd-8b82-b6a30b210793)
+![Screenshot 2023-09-18 at 11 15 53 PM](https://github.com/Cpanelli/Code-Quiz/assets/133393733/98bc3a86-08b1-4eec-99b0-271ddf67cca2)
+
+
 ## How to Use
 
 To access and use the quiz application, simply click on the following link:
